@@ -1,0 +1,27 @@
+.home-main{
+    height: 90vh;
+    padding:2rem 3rem 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-main div{
+    padding:2rem;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-body p{
+    margin-top:1rem;
+}
+.my-img img{
+    aspect-ratio: 1/1;
+    width: 32rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 5px #49392a;
+
+}

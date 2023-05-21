@@ -1,0 +1,31 @@
+.footer{
+    padding:2rem;
+    display:flex;
+    background-color: rgb(50, 50, 50);
+    flex-direction: column;
+}
+.vertical{
+    display: flex;
+    justify-content: space-around;
+}
+#quick-links{
+    display:flex;
+    flex-direction:column;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-sub-content div{
+    margin:1rem;
+}
+.footer-content p{
+    font-size: 1.8rem;
+}
+.ownership{
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+}
+

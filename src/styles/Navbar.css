@@ -1,0 +1,23 @@
+.navbar{
+    padding:1rem 5rem 0rem 5rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:30%
+}
+.routes{
+    display:flex;
+}
+.route{
+    margin:0 3rem 0 3rem;
+}
+.route a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #0185ff;
+    /* text-shadow: 2px 2px 20px #0078e9; */
+    /* font-style:oblique; */
+}
