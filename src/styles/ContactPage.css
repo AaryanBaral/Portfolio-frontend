@@ -1,28 +1,38 @@
 .contact-main{
-    margin-top: 3rem;
     padding:3rem;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+.h1{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .contact-links{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contact-links h1{
+h1{
     font-size: 3rem;
-    margin-bottom: 1rem;
 }
 .contact-link{
-    padding:2rem;
+    padding:1.9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .icon{
-    font-size: 3rem;
+    font-size: 3.9rem;
     margin-bottom: .8rem;
+}
+.contact-form{
+    margin-top:1rem;
 }
 form{
     display: flex;
@@ -33,7 +43,7 @@ form{
     width: 30rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #ccc;
     outline: none;
     color: black;
@@ -49,7 +59,7 @@ form{
 form button{
     width: 10rem;
     height: 3rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     outline: none;
     background-color: #0095ff;
