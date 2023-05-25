@@ -44,13 +44,15 @@ form{
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border:2px solid #0095ff;
     outline: none;
-    color: black;
+    color: white;
     font-size: 1.3rem;
+    background-color: transparent;
 }
 .form-group input::placeholder, .form-group textarea::placeholder{
     font-size: 1rem;
+    color: #ccc;
 }
 .form-group textarea{
     height: 15rem;
